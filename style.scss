@@ -1,0 +1,68 @@
+$primary-color: #17a2b8;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // border: 2px solid red;
+}
+body {
+    height: 100vh;
+    background: $primary-color;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.alert {
+    font-size: 40px;
+    // font-weight: 600;
+    color: $primary-color;
+    background: white;
+    border-radius: 12px;
+    padding: 10px 40px;
+    border: none;
+    outline: none;
+}
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.result {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 6px solid white;
+    font-size: 70px;
+    font-weight: 600;
+    margin-bottom: 50px;
+}
+.detail {
+    display: flex;
+}
+.card {
+    width: 250px;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin: 0 40px;
+    p:first-child {
+        background: #78c0c9;
+        color: white;
+    }
+    p {
+        font-size: 20px;
+        padding: 10px;
+        text-align: center;
+        color: black;
+    }
+}
+.hide {
+    display: none;
+}
